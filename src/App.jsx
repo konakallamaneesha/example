@@ -15,10 +15,6 @@ function App() {
     setName('MERN');
   }
 
-  useEffect=(()=>{
-    console.log("changed");
-  },[count])
-
   return(
     <div>
       {name}<br/>
